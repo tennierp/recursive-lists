@@ -3,7 +3,7 @@
 ## Student Information
 Parker Tennier  
 ID: 008768156  
-https://github.com/tennierp/maze-solver
+https://github.com/tennierp/recursive-lists.git
 
 ## Collaboration & Sources
 Dr. Ali A. Kooshesh provided an Abstract Data Type of Recursive Lists including null(), is_null(), is_atom(), eq(), car(), cdr(),
