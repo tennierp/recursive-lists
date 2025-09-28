@@ -11,16 +11,16 @@ cons(), write_list(), read_list(), and append(). With his ADT and functions I wa
 functions for the Recursive Lists ADT.
 
 ## Implementation Details
-Recursive Lists are an ADT designed to learn more about recursion in C++. Each value is either an atom or a list (which may
+Recursive Lists are an ADT designed to learn more about recursion in C++. Each list is either an atom or a list (which may
 itself be empty or contain nested lists). The functions I implemented use recursion to traverse and manipulate these
-Lists, returning either a new list or a boolean result.
+lists, returning either a new list or a boolean result.
 
 Each function demonstrates a different recursive pattern:
 - Some functions transform lists, such as `reverse`, `flat`, and `total_reverse`.
 - Others perform structural checks, such as `is_lat`, `equal`, or `subset`.
 - Several implement set-like behavior on lists of atoms, such as `intersection` and `list_union`.
 - There are also functions such as `substitute` and `remove` that will do just as they sound, substitute an atom for another
-or completely remove an atom from the provided list..
+or completely remove an atom from the provided list.
 
 For example:
 - `bool subset(list p, list q)` checks if every atom in `p` also appears in `q`.
